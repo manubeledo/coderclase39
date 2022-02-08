@@ -1,6 +1,17 @@
-function fun() {
-    return true;
+class Operaciones {
+    suma(a, b) {
+        return a + b;
+    }
+    resta(a, b) {
+        return a - b;
+    }
+    multiplicacion(a, b) {
+        return a * b;
+    }
+    division(a, b) {
+        return a / b;
+    }
 }
 
-module.exports = fun;
+module.exports = new Operaciones();
 
